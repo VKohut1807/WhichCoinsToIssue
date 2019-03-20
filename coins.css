@@ -1,0 +1,80 @@
+*{
+	font-size: 100%;
+}
+
+#photo{
+	text-align: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: url("https://images.unsplash.com/photo-1534951009808-766178b47a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+	background-size: cover;  
+}
+
+div table caption{
+	box-sizing: content-box;
+	text-align: center;
+	text-shadow: 1px 1px 0;
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-size: 5em;
+}
+
+h1{
+	box-sizing: content-box;
+	text-align: center;
+	text-shadow: 1px 1px 0;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	width: 5em;
+}
+
+table#cells tr td textarea{
+	box-sizing: content-box;
+	width: 100%;
+	resize: none;
+	border-radius: 30px;
+	border: solid #7FFF00 3px;
+	text-align: center;
+	text-shadow: 1px 1px 0;
+	background-color: #FFC0CB;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	width: 7em;
+	padding: 2.5em 0em 0em 0em; 
+}
+
+#otherElements{
+	margin-left: 25em;
+}
+
+table#otherElements tr td textarea{
+	box-sizing: content-box;
+	width: 100%;
+	resize: none;
+	border-radius: 30px;
+	border: solid #7FFF00 3px;
+	text-align: center;
+	text-shadow: 1px 1px 0;
+	background-color: #C8A2C8;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	width: 8em;
+	height: 5em;
+	padding: 3.5em 0em 0em 0em;
+}
+
+table tr td input{
+	box-sizing: border-box;
+	border-radius: 50px;
+	border: solid #FF8000 5px;
+	width: 7em;
+	height: 7em;
+}

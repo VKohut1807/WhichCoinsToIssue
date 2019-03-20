@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Coins</title>
+	<link rel="stylesheet" type="text/css" href="coins.css">
+</head>
+<body>
+<div id="photo">
+	<a href="https://unsplash.com/photos/OApHds2yEGQ">Photo by Ibrahim Rifath on Unsplash</a>
+</div>
+	
+
+<script src="coins.js"></script>
+
+<div id="bgPhoto">
+	<table id="cells">
+		<caption align="top">Which coins to issue</caption>
+		<tr id="cellsText">
+			<td>
+				<h1>50 Coins</h1>
+			</td>
+			<td>
+				<h1>20 Coins</h1>
+			</td>
+			<td>
+				<h1>10 Coins</h1>
+			</td>
+			<td>
+				<h1>5 Coins</h1>
+			</td>
+			<td>
+				<h1>2 Coins</h1>
+			</td>
+			<td>
+				<h1>1 Coins</h1>
+			</td>
+			<td>
+				<h1></h1>
+			</td>
+			<td>
+				<h1 id="piecesCoins">Coins after issue</h1>
+			</td>
+		</tr >
+		<tr>
+			<td>
+				<textarea id="pieces50" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td>
+				<textarea id="pieces20" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td>
+				<textarea id="pieces10" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td>
+				<textarea id="pieces5" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td>
+				<textarea id="pieces2" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td>
+				<textarea id="piece1" rows="2" cols="7" readonly=""></textarea>
+			</td>
+			<td></td>
+			<td>
+				<textarea id="pieces" rows="2" cols="7" readonly="" style="background:#FFFF00;"></textarea>
+			</td>
+		</tr>
+	</table><br>
+	<table id="otherElements">	
+		<tr>
+			<td>
+				<textarea id="coinsIn" rows="1" cols="1" placeholder="Enter	pieces"></textarea>	
+			</td>
+			<td>
+				<input type="submit" onclick="whichCoinsToIssue()" value="Enter">
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
